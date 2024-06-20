@@ -1,22 +1,12 @@
 #
 # GitHub Actions for automated PROJ-data release
 #
-# Only run on tag
-# Only release if distcheck succeeds
-# Only release if the tag name is identical to the full version
-
-# NOTES
+# Only run on tags matching x.y.z or x.y.zRCn
 #
-# https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
-#
-# - name: Save state
-# run: echo "{name}={value}" >> $GITHUB_STAT
-#
-# - name: Set output
-# run: echo "{name}={value}" >> $GITHUB_OUTPUT
-
-# https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables
-# GITHUB_REF_NAME
+# Automatically opens a draft release and uploads the packages build with CMake
+# as well as various checksum files. Manual steps includes adding release notes
+# and changes the release status from draft to final. Release candidates are
+# automatically set a pre-releases.
 
 name: 'Release'
 
