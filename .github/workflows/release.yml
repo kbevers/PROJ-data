@@ -77,25 +77,12 @@ jobs:
             done
         done
 
-    - name: Create Pre-Release
-      if: ${{ steps.release_type.outputs.final_release == 'false' }}
-      id: create_prerelease
-      uses: softprops/action-gh-release@v2
-      with:
-        generate_release_notes: true
-        draft: true
-        name: PROJ-data ${{ github.ref_name }}
-        prerelease: true
-        files: |
-          ./_build/proj-data-*
-
     - name: Create Release
-      if: ${{ steps.release_type.outputs.final_release == 'true' }}
       id: create_release
       uses: softprops/action-gh-release@v2
       with:
         generate_release_notes: true
-        draft: true
+        draft: ${{ steps.release_type.outputs.final_release == 'true' }}
         name: PROJ-data ${{ github.ref_name }}
         prerelease: false
         files: |
