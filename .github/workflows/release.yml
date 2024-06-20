@@ -48,9 +48,11 @@ jobs:
       id: release_type
       run: |
         echo "final_release=false" >> $GITHUB_OUTPUT
-        if [[ ${{ github.ref }} =~ ^refs/tags/[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+        echo tag=${{github.ref_name}}
+        if [[ ${{ github.ref_name }} =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
               echo "final_release=true" >> $GITHUB_OUTPUT
         fi
+        echo $GITHUB_OUTPUT
 
 
     - name: 'Bundle & Check Package'
@@ -76,7 +78,7 @@ jobs:
         done
 
     - name: Create Pre-Release
-      if: ${{ !steps.release_type.outputs.final_release }}
+      if: ${{ steps.release_type.outputs.final_release == false }}
       id: create_prerelease
       uses: softprops/action-gh-release@v2
       with:
@@ -88,7 +90,7 @@ jobs:
           ./_build/proj-data-*
 
     - name: Create Release
-      if: ${{ steps.release_type.outputs.final_release }}
+      if: ${{ steps.release_type.outputs.final_release == true }}
       id: create_release
       uses: softprops/action-gh-release@v2
       with:
