@@ -64,7 +64,7 @@ jobs:
         cmake ..
         cmake --build . --target dist
         
-        extensions=".tar.gz .tar.bz2"
+        extensions=".tar.gz .zip"
         for ext in $extensions
         do
             for filename in $(ls *$ext)
@@ -82,7 +82,7 @@ jobs:
       with:
         generate_release_notes: true
         draft: true
-        name: PROJ-data ${{ github.ref.name }}
+        name: PROJ-data GITHUB_REF_NAME
         prerelease: true
         files: |
           ./_build/proj-data-*
@@ -94,7 +94,7 @@ jobs:
       with:
         generate_release_notes: true
         draft: true
-        name: PROJ-data ${{ github.ref.name }}
+        name: PROJ-data $GITHUB_REF_NAME
         prerelease: false
         files: |
           ./_build/proj-data-*
