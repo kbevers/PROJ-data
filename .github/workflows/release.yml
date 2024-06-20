@@ -82,7 +82,7 @@ jobs:
       with:
         generate_release_notes: true
         draft: true
-        name: PROJ-data GITHUB_REF_NAME
+        name: PROJ-data ${{ github.ref_name }}
         prerelease: true
         files: |
           ./_build/proj-data-*
@@ -94,7 +94,7 @@ jobs:
       with:
         generate_release_notes: true
         draft: true
-        name: PROJ-data $GITHUB_REF_NAME
+        name: PROJ-data ${{ github.ref_name }}
         prerelease: false
         files: |
           ./_build/proj-data-*
