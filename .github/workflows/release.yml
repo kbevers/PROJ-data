@@ -48,7 +48,7 @@ jobs:
       id: release_type
       run: |
         echo "final_release=false" >> $GITHUB_OUTPUT
-        if [[ ${{ github.ref }} =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+        if [[ ${{ github.ref }} =~ ^refs/tags/[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
               echo "final_release=true" >> $GITHUB_OUTPUT
         fi
 
@@ -61,6 +61,7 @@ jobs:
         
         mkdir _build && cd _build
         cmake --version
+        cmake ..
         cmake --build . --target dist
         
         extensions=".tar.gz .tar.bz2"
