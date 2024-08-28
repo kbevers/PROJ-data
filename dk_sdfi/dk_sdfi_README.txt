@@ -7,8 +7,8 @@ from [Agency for Data Supply and Infrastructure](https://sdfi.dk) (previously kn
 
 ### ETRS89 -> GS-IRF
 
-*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)  
-*Format*: GTG  
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ETRS89 coordinates (EPSG:4258) to Generalstabens Systems intermediate reference
@@ -19,8 +19,8 @@ and GS.
 
 ### ETRS89 -> GSB-IRF
 
-*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)  
-*Format*: GTG  
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ETRS89 coordinates (EPSG:4258) to Generalstabens Systems Bornholm intermediate
@@ -31,8 +31,8 @@ between ETRS89 and GSB.
 
 ### ETRS89 -> KK-IRF
 
-*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)  
-*Format*: GTG  
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ETRS89 coordinates (EPSG:4258) to Københavns Kommunes System intermediate
@@ -43,8 +43,8 @@ between ETRS89 and KK.
 
 ### ETRS89 -> OS-IRF
 
-*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)  
-*Format*: GTG  
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ETRS89 coordinates (EPSG:4258) to System Ostenfeld (OS) intermediate
@@ -55,8 +55,8 @@ between ETRS89 and OS.
 
 ### ETRS89 -> S34J-IRF
 
-*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)  
-*Format*: GTG  
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ETRS89 coordinates (EPSG:4258) to System 34 Jylland intermediate
@@ -67,8 +67,8 @@ between ETRS89 and S34J.
 
 ### ETRS89 -> S34S-IRF
 
-*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)  
-*Format*: GTG  
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ETRS89 coordinates (EPSG:4258) to System 34 Sjælland intermediate
@@ -79,8 +79,8 @@ between ETRS89 and S34S.
 
 ### ETRS89 -> S45B-IRF
 
-*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)  
-*Format*: GTG  
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ETRS89 coordinates (EPSG:4258) to System 45 Bornholm intermediate
@@ -91,8 +91,8 @@ between ETRS89 and S45B.
 
 ### ETRS89 -> DVR90
 
-*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)  
-*Format*: GTG  
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ETRS89 ellipsoidal heights (EPSG:4937) to DVR90. The DVR90 ensemble (EPSG:5799) includes
@@ -108,8 +108,8 @@ three realizations which have a related grid transformation:
 
 ### ETRS89 -> DKLAT
 
-*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)  
-*Format*: GTG  
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ETRS89 ellipsoidal heights (EPSG:4937) to DKLAT. The DKLAT ensemble (EPSG:10552) includes
@@ -124,8 +124,8 @@ two realizations which have a related grid transformation:
 
 ### ETRS89 -> DKMSL
 
-*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)  
-*Format*: GTG  
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ETRS89 ellipsoidal heights (EPSG:4937) to DKMSL. The DKMSL ensemble (EPSG:10551) includes
@@ -140,8 +140,8 @@ two realizations which have a related grid transformation:
 
 ### GLLMSL -> GVR2016
 
-*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)  
-*Format*: GTG  
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform local mean sea level (EPSG:10565) to GVR2016 (EPSG:8267).
@@ -149,3 +149,18 @@ Transform local mean sea level (EPSG:10565) to GVR2016 (EPSG:8267).
 * dk_sdfi_gllmsl_2022.tif
 
 
+### GR96 -> GLLAT
+
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Transform GR966 ellipsoidal heights (EPSG:4909) to GR96+GLLAT (EPSG:10652)
+
+### GR96 -> GLMSL
+
+*Source*: [Agency for Data Supply and Infrastructure](https://sdfi.dki/vores-opgaver/geodaesi/koordinattransformation)
+*Format*: GTG
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Transform GR966 ellipsoidal heights (EPSG:4909) to GR96+GLMSL (EPSG:10651)
